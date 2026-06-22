@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-subbuild\CMakeFiles\fc59734204f10f0908293390194e876d\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1B0AFA85-DF93-309F-B86D-DCA52D1A1936}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,116 @@
+{
+  "application": {
+    "name": "Cyber Sentinel X",
+    "tagline": "Observe. Analyze. Predict. Protect.",
+    "theme": "tactical_neural",
+    "target_fps": 60,
+    "dev_mode": true
+  },
+  "camera": {
+    "default_source": "usb:0",
+    "width": 640,
+    "height": 480,
+    "fps": 30,
+    "reconnect_interval_ms": 2000,
+    "max_reconnect_attempts": 0,
+    "buffer_depth": 3
+  },
+  "motion": {
+    "algorithm": "mog2",
+    "learning_rate": 0.005,
+    "threshold": 25,
+    "min_blob_area": 400,
+    "shadow_removal": true
+  },
+  "tracking": {
+    "max_tracks": 32,
+    "lost_timeout_ms": 1500,
+    "iou_threshold": 0.3
+  },
+  "behavior": {
+    "enabled": true,
+    "baseline_learning_frames": 300,
+    "loitering_threshold_ms": 8000,
+    "loitering_max_speed": 15,
+    "running_speed_threshold": 80,
+    "tamper_brightness_delta": 0.35,
+    "idle_camera_ms": 5000,
+    "night_hour_start": 22,
+    "night_hour_end": 6,
+    "min_anomaly_score": 0.25
+  },
+  "recognition": {
+    "enabled": true,
+    "runtime_dnn": true,
+    "inference_interval_frames": 10,
+    "match_threshold": 0.42,
+    "foe_threshold": 0.30,
+    "lock_hold_frames": 18,
+    "import_dir": "assets/faces/authorized",
+    "models": {
+      "face_detector": "assets/models/yunet_2023mar.onnx",
+      "face_embedder": "assets/models/sface_2021dec.onnx"
+    }
+  },
+  "threat": {
+    "weights": {
+      "motion": 0.15,
+      "track": 0.20,
+      "face": 0.30,
+      "behavior": 0.25,
+      "context": 0.10
+    },
+    "levels": {
+      "green_max": 20,
+      "yellow_max": 40,
+      "orange_max": 60,
+      "red_max": 80
+    },
+    "auto_record_level": "orange"
+  },
+  "hud": {
+    "enabled": true,
+    "grid_opacity": 0.18,
+    "scanline_speed": 2.4,
+    "reticle_style": "hex_tactical",
+    "show_velocity_vectors": true,
+    "show_prediction_trails": true,
+    "show_threat_halo": true,
+    "neon_primary": "#00E5FF",
+    "neon_warning": "#FF6D00",
+    "neon_critical": "#FF1744",
+    "neon_authorized": "#00E676"
+  },
+  "ui": {
+    "boot_sequence": true,
+    "particle_density": 0.6,
+    "animation_speed": 1.0,
+    "radar_sweep_rpm": 4.0,
+    "hologram_parallax": true,
+    "glitch_on_threat": true,
+    "defcon_display": true
+  },
+  "recording": {
+    "enabled": true,
+    "pre_buffer_seconds": 5,
+    "post_buffer_seconds": 10,
+    "codec": "h264",
+    "output_dir": "recordings",
+    "max_storage_gb": 50
+  },
+  "voice": {
+    "enabled": true,
+    "rate": 0,
+    "volume": 90,
+    "cooldown_ms": 3000
+  },
+  "database": {
+    "path": "data/cyber_sentinel.db"
+  },
+  "logging": {
+    "level": "info",
+    "directory": "logs",
+    "ai_decisions": true,
+    "performance": true
+  }
+}

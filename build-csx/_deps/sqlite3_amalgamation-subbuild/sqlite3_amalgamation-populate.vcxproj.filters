@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-subbuild\CMakeFiles\ae87a60c23bd3e172ec1e5edd81a6709\sqlite3_amalgamation-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-subbuild\CMakeFiles\ae87a60c23bd3e172ec1e5edd81a6709\sqlite3_amalgamation-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-subbuild\CMakeFiles\ae87a60c23bd3e172ec1e5edd81a6709\sqlite3_amalgamation-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-subbuild\CMakeFiles\ae87a60c23bd3e172ec1e5edd81a6709\sqlite3_amalgamation-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-subbuild\CMakeFiles\ae87a60c23bd3e172ec1e5edd81a6709\sqlite3_amalgamation-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-subbuild\CMakeFiles\ae87a60c23bd3e172ec1e5edd81a6709\sqlite3_amalgamation-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-subbuild\CMakeFiles\ae87a60c23bd3e172ec1e5edd81a6709\sqlite3_amalgamation-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-subbuild\CMakeFiles\ae87a60c23bd3e172ec1e5edd81a6709\sqlite3_amalgamation-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-subbuild\CMakeFiles\705459784b7b530de64e0a7c459002e3\sqlite3_amalgamation-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-subbuild\CMakeFiles\fc59734204f10f0908293390194e876d\sqlite3_amalgamation-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-subbuild\CMakeFiles\sqlite3_amalgamation-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1B0AFA85-DF93-309F-B86D-DCA52D1A1936}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

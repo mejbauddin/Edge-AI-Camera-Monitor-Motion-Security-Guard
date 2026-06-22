@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/googletest-subbuild/CMakeFiles/58d15ba0ad06f546c9d52013644997f7/googletest-populate.rule"
+		},
+		{
+			"file" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/googletest-subbuild/CMakeFiles/d26d3f0cbf6618ef9b7dff79a7041a47/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/googletest-subbuild/CMakeFiles/d54463a6cab34058f1994cc0f704cfc7/googletest-populate-build.rule"
+		},
+		{
+			"file" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/googletest-subbuild/CMakeFiles/d54463a6cab34058f1994cc0f704cfc7/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/googletest-subbuild/CMakeFiles/d54463a6cab34058f1994cc0f704cfc7/googletest-populate-download.rule"
+		},
+		{
+			"file" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/googletest-subbuild/CMakeFiles/d54463a6cab34058f1994cc0f704cfc7/googletest-populate-install.rule"
+		},
+		{
+			"file" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/googletest-subbuild/CMakeFiles/d54463a6cab34058f1994cc0f704cfc7/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/googletest-subbuild/CMakeFiles/d54463a6cab34058f1994cc0f704cfc7/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/googletest-subbuild/CMakeFiles/d54463a6cab34058f1994cc0f704cfc7/googletest-populate-test.rule"
+		},
+		{
+			"file" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/googletest-subbuild/CMakeFiles/d54463a6cab34058f1994cc0f704cfc7/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}

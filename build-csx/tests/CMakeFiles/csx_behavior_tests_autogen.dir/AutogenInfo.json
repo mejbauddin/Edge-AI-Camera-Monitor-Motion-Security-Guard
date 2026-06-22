@@ -1,0 +1,206 @@
+{
+	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
+	"BUILD_DIR" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_behavior_tests_autogen",
+	"CMAKE_BINARY_DIR" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Edge AI Camera Monitor & Motion Security Guard/tests",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"D:/Edge AI Camera Monitor & Motion Security Guard/tests/CMakeLists.txt",
+		"C:/Program Files/CMake/share/cmake-4.4/Modules/GoogleTest.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "D:/Edge AI Camera Monitor & Motion Security Guard",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_behavior_tests_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "csx_behavior_tests_autogen/timestamp",
+	"HEADERS" : [],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_behavior_tests_autogen/include",
+	"INCLUDE_DIR_Debug" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_behavior_tests_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_behavior_tests_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_behavior_tests_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_behavior_tests_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_behavior_tests_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_behavior_tests_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_MinSizeRel" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_behavior_tests_autogen/mocs_compilation_MinSizeRel.cpp",
+	"MOC_COMPILATION_FILE_RelWithDebInfo" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_behavior_tests_autogen/mocs_compilation_RelWithDebInfo.cpp",
+	"MOC_COMPILATION_FILE_Release" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_behavior_tests_autogen/mocs_compilation_Release.cpp",
+	"MOC_DEFINITIONS" : [],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"CSX_DEV_MODE=1",
+		"CSX_HAS_OPENCV=1",
+		"CYBER_SENTINEL_X_VERSION=\"1.0.0\"",
+		"SPDLOG_COMPILED_LIB",
+		"WIN32"
+	],
+	"MOC_DEFINITIONS_MinSizeRel" : 
+	[
+		"CSX_DEV_MODE=1",
+		"CSX_HAS_OPENCV=1",
+		"CYBER_SENTINEL_X_VERSION=\"1.0.0\"",
+		"SPDLOG_COMPILED_LIB",
+		"WIN32"
+	],
+	"MOC_DEFINITIONS_RelWithDebInfo" : 
+	[
+		"CSX_DEV_MODE=1",
+		"CSX_HAS_OPENCV=1",
+		"CYBER_SENTINEL_X_VERSION=\"1.0.0\"",
+		"SPDLOG_COMPILED_LIB",
+		"WIN32"
+	],
+	"MOC_DEFINITIONS_Release" : 
+	[
+		"CSX_DEV_MODE=1",
+		"CSX_HAS_OPENCV=1",
+		"CYBER_SENTINEL_X_VERSION=\"1.0.0\"",
+		"SPDLOG_COMPILED_LIB",
+		"WIN32"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : [],
+	"MOC_INCLUDES_Debug" : 
+	[
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src/core",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-src/include",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/nlohmann_json-src/include",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src/behavior",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src/tracking",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src/vision/motion",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src/vision/camera",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src/utils",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/googletest-src/googletest/include",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/googletest-src/googletest",
+		"C:/opencv/build/opencv/build/include"
+	],
+	"MOC_INCLUDES_MinSizeRel" : 
+	[
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src/core",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-src/include",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/nlohmann_json-src/include",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src/behavior",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src/tracking",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src/vision/motion",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src/vision/camera",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src/utils",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/googletest-src/googletest/include",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/googletest-src/googletest",
+		"C:/opencv/build/opencv/build/include"
+	],
+	"MOC_INCLUDES_RelWithDebInfo" : 
+	[
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src/core",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-src/include",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/nlohmann_json-src/include",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src/behavior",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src/tracking",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src/vision/motion",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src/vision/camera",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src/utils",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/googletest-src/googletest/include",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/googletest-src/googletest",
+		"C:/opencv/build/opencv/build/include"
+	],
+	"MOC_INCLUDES_Release" : 
+	[
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src/core",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-src/include",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/nlohmann_json-src/include",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src/behavior",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src/tracking",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src/vision/motion",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src/vision/camera",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/src/utils",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/googletest-src/googletest/include",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/googletest-src/googletest",
+		"C:/opencv/build/opencv/build/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_camera_tests_autogen/mocs_compilation_Debug.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_camera_tests_autogen/mocs_compilation_MinSizeRel.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_camera_tests_autogen/mocs_compilation_RelWithDebInfo.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_camera_tests_autogen/mocs_compilation_Release.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_core_tests_autogen/mocs_compilation_Debug.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_core_tests_autogen/mocs_compilation_MinSizeRel.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_core_tests_autogen/mocs_compilation_RelWithDebInfo.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_core_tests_autogen/mocs_compilation_Release.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_database_tests_autogen/mocs_compilation_Debug.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_database_tests_autogen/mocs_compilation_MinSizeRel.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_database_tests_autogen/mocs_compilation_RelWithDebInfo.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_database_tests_autogen/mocs_compilation_Release.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_motion_tests_autogen/mocs_compilation_Debug.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_motion_tests_autogen/mocs_compilation_MinSizeRel.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_motion_tests_autogen/mocs_compilation_RelWithDebInfo.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_motion_tests_autogen/mocs_compilation_Release.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_recognition_tests_autogen/mocs_compilation_Debug.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_recognition_tests_autogen/mocs_compilation_MinSizeRel.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_recognition_tests_autogen/mocs_compilation_RelWithDebInfo.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_recognition_tests_autogen/mocs_compilation_Release.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_tracking_tests_autogen/mocs_compilation_Debug.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_tracking_tests_autogen/mocs_compilation_MinSizeRel.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_tracking_tests_autogen/mocs_compilation_RelWithDebInfo.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_tracking_tests_autogen/mocs_compilation_Release.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_utils_tests_autogen/mocs_compilation_Debug.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_utils_tests_autogen/mocs_compilation_MinSizeRel.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_utils_tests_autogen/mocs_compilation_RelWithDebInfo.cpp",
+		"D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/csx_utils_tests_autogen/mocs_compilation_Release.cpp"
+	],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 14,
+	"PARSE_CACHE_FILE" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/CMakeFiles/csx_behavior_tests_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/CMakeFiles/csx_behavior_tests_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/CMakeFiles/csx_behavior_tests_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/CMakeFiles/csx_behavior_tests_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/CMakeFiles/csx_behavior_tests_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "C:/Qt/6.7.3/msvc2019_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 7,
+	"SETTINGS_FILE" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/CMakeFiles/csx_behavior_tests_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/CMakeFiles/csx_behavior_tests_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/CMakeFiles/csx_behavior_tests_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/CMakeFiles/csx_behavior_tests_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/tests/CMakeFiles/csx_behavior_tests_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"D:/Edge AI Camera Monitor & Motion Security Guard/tests/unit/behavior/behavior_engine_test.cpp",
+			"Mu",
+			null
+		],
+		[
+			"D:/Edge AI Camera Monitor & Motion Security Guard/tests/unit/behavior/geometry_test.cpp",
+			"Mu",
+			null
+		]
+	],
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

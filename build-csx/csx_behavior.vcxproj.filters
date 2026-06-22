@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\behavior\AnomalyScorer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\behavior\BaselineLearner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\behavior\BehaviorEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\behavior\BehaviorSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\behavior\Geometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\behavior\IntrusionDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\behavior\LoiteringDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\behavior\MotionPatternAnalyzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\behavior\TamperDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\behavior\AnomalyScorer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\behavior\BaselineLearner.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\behavior\BehaviorEngine.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\behavior\BehaviorSettings.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\behavior\Geometry.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\behavior\IntrusionDetector.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\behavior\LoiteringDetector.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\behavior\MotionPatternAnalyzer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\behavior\TamperDetector.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\nlohmann_json-src\nlohmann_json.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C2124458-564B-3939-B24B-02C36C174215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6D7D1166-6553-3555-AFCE-0976AFF4B8D9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

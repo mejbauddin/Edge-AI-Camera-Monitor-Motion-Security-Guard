@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.4/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/CMakeFiles/cmake.verify_globs
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-src/CMakeLists.txt
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-src/cmake/ide.cmake
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-src/cmake/utils.cmake

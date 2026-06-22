@@ -1,0 +1,10 @@
+^D:\EDGE AI CAMERA MONITOR & MOTION SECURITY GUARD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Edge AI Camera Monitor & Motion Security Guard" "-BD:/Edge AI Camera Monitor & Motion Security Guard/build-csx" --check-stamp-file "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

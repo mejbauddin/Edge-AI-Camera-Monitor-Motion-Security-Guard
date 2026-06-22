@@ -1,0 +1,10 @@
+^D:\EDGE AI CAMERA MONITOR & MOTION SECURITY GUARD\BUILD-CSX\_DEPS\NLOHMANN_JSON-SUBBUILD\CMAKEFILES\4725C1BCBD0C4E86742B593FF2908C57\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/nlohmann_json-subbuild" "-BD:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/nlohmann_json-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/nlohmann_json-subbuild/nlohmann_json-populate.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

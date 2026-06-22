@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\spdlog-subbuild\CMakeFiles\8239f8254d5383dfb7bb99abf1ac6dad\spdlog-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\spdlog-subbuild\CMakeFiles\8239f8254d5383dfb7bb99abf1ac6dad\spdlog-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\spdlog-subbuild\CMakeFiles\8239f8254d5383dfb7bb99abf1ac6dad\spdlog-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\spdlog-subbuild\CMakeFiles\8239f8254d5383dfb7bb99abf1ac6dad\spdlog-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\spdlog-subbuild\CMakeFiles\8239f8254d5383dfb7bb99abf1ac6dad\spdlog-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\spdlog-subbuild\CMakeFiles\8239f8254d5383dfb7bb99abf1ac6dad\spdlog-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\spdlog-subbuild\CMakeFiles\8239f8254d5383dfb7bb99abf1ac6dad\spdlog-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\spdlog-subbuild\CMakeFiles\8239f8254d5383dfb7bb99abf1ac6dad\spdlog-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\spdlog-subbuild\CMakeFiles\12f873ccf3bab2daba2bcc89bea02cc4\spdlog-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\spdlog-subbuild\CMakeFiles\6d26faf62ee5705a023ffddb4816f8ca\spdlog-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\spdlog-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\spdlog-subbuild\CMakeFiles\spdlog-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F4A99CC4-F872-3292-AFC2-E870328462D3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

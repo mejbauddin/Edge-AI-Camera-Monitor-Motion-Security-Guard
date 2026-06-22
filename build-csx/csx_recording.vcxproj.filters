@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording\H264Encoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording\Mp4Writer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording\Recorder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording\RecordingSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording\RollingBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording\SnapshotCapture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording\StorageManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording\BufferedFrame.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording\H264Encoder.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording\Mp4Writer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording\Recorder.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording\RecordingSettings.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording\RollingBuffer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording\SnapshotCapture.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording\StorageManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\nlohmann_json-src\nlohmann_json.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C2124458-564B-3939-B24B-02C36C174215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6D7D1166-6553-3555-AFCE-0976AFF4B8D9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

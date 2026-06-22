@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\threat\BehaviorFusion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\threat\PriorityCalculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\threat\ThreatEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\threat\ThreatHistory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\threat\ThreatScorer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\threat\ThreatSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\threat\BehaviorFusion.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\threat\PriorityCalculator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\threat\ThreatEngine.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\threat\ThreatHistory.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\threat\ThreatScorer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\threat\ThreatSettings.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\nlohmann_json-src\nlohmann_json.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C2124458-564B-3939-B24B-02C36C174215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6D7D1166-6553-3555-AFCE-0976AFF4B8D9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

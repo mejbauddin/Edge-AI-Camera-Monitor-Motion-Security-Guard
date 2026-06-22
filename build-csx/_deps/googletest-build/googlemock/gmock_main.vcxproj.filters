@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\googletest-src\googletest\src\gtest-all.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\googletest-src\googlemock\src\gmock-all.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\googletest-src\googlemock\src\gmock_main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\googletest-src\googlemock\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6D7D1166-6553-3555-AFCE-0976AFF4B8D9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

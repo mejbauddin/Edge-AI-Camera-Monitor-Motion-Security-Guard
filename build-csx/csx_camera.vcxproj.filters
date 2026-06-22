@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera\CameraDiagnostics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera\CameraEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera\CameraSourceFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera\CameraTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera\FrameBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera\FrameConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera\OpenCvCameraSources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera\SyntheticCameraSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera\CameraDiagnostics.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera\CameraEngine.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera\CameraSourceFactory.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera\CameraTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera\FrameBuffer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera\FrameConverter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera\OpenCvCameraSources.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera\SyntheticCameraSource.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\nlohmann_json-src\nlohmann_json.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C2124458-564B-3939-B24B-02C36C174215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6D7D1166-6553-3555-AFCE-0976AFF4B8D9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,152 @@
+^D:\EDGE AI CAMERA MONITOR & MOTION SECURITY GUARD\BUILD-CSX\_DEPS\SQLITE3_AMALGAMATION-SUBBUILD\CMAKEFILES\AE87A60C23BD3E172EC1E5EDD81A6709\SQLITE3_AMALGAMATION-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/sqlite3_amalgamation-populate-prefix/tmp/sqlite3_amalgamation-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/sqlite3_amalgamation-populate-prefix/src/sqlite3_amalgamation-populate-stamp/Debug/sqlite3_amalgamation-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\EDGE AI CAMERA MONITOR & MOTION SECURITY GUARD\BUILD-CSX\_DEPS\SQLITE3_AMALGAMATION-SUBBUILD\CMAKEFILES\AE87A60C23BD3E172EC1E5EDD81A6709\SQLITE3_AMALGAMATION-POPULATE-DOWNLOAD.RULE
+setlocal
+cd "D:\Edge AI Camera Monitor & Motion Security Guard\build-csx\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/sqlite3_amalgamation-populate-prefix/src/sqlite3_amalgamation-populate-stamp/download-sqlite3_amalgamation-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/sqlite3_amalgamation-populate-prefix/src/sqlite3_amalgamation-populate-stamp/verify-sqlite3_amalgamation-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/sqlite3_amalgamation-populate-prefix/src/sqlite3_amalgamation-populate-stamp/extract-sqlite3_amalgamation-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/sqlite3_amalgamation-populate-prefix/src/sqlite3_amalgamation-populate-stamp/Debug/sqlite3_amalgamation-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\EDGE AI CAMERA MONITOR & MOTION SECURITY GUARD\BUILD-CSX\_DEPS\SQLITE3_AMALGAMATION-SUBBUILD\CMAKEFILES\AE87A60C23BD3E172EC1E5EDD81A6709\SQLITE3_AMALGAMATION-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/sqlite3_amalgamation-populate-prefix/src/sqlite3_amalgamation-populate-stamp/Debug/sqlite3_amalgamation-populate-update"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\EDGE AI CAMERA MONITOR & MOTION SECURITY GUARD\BUILD-CSX\_DEPS\SQLITE3_AMALGAMATION-SUBBUILD\CMAKEFILES\AE87A60C23BD3E172EC1E5EDD81A6709\SQLITE3_AMALGAMATION-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/sqlite3_amalgamation-populate-prefix/src/sqlite3_amalgamation-populate-stamp/Debug/sqlite3_amalgamation-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\EDGE AI CAMERA MONITOR & MOTION SECURITY GUARD\BUILD-CSX\_DEPS\SQLITE3_AMALGAMATION-SUBBUILD\CMAKEFILES\AE87A60C23BD3E172EC1E5EDD81A6709\SQLITE3_AMALGAMATION-POPULATE-CONFIGURE.RULE
+setlocal
+cd "D:\Edge AI Camera Monitor & Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/sqlite3_amalgamation-populate-prefix/src/sqlite3_amalgamation-populate-stamp/Debug/sqlite3_amalgamation-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\EDGE AI CAMERA MONITOR & MOTION SECURITY GUARD\BUILD-CSX\_DEPS\SQLITE3_AMALGAMATION-SUBBUILD\CMAKEFILES\AE87A60C23BD3E172EC1E5EDD81A6709\SQLITE3_AMALGAMATION-POPULATE-BUILD.RULE
+setlocal
+cd "D:\Edge AI Camera Monitor & Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/sqlite3_amalgamation-populate-prefix/src/sqlite3_amalgamation-populate-stamp/Debug/sqlite3_amalgamation-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\EDGE AI CAMERA MONITOR & MOTION SECURITY GUARD\BUILD-CSX\_DEPS\SQLITE3_AMALGAMATION-SUBBUILD\CMAKEFILES\AE87A60C23BD3E172EC1E5EDD81A6709\SQLITE3_AMALGAMATION-POPULATE-INSTALL.RULE
+setlocal
+cd "D:\Edge AI Camera Monitor & Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/sqlite3_amalgamation-populate-prefix/src/sqlite3_amalgamation-populate-stamp/Debug/sqlite3_amalgamation-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\EDGE AI CAMERA MONITOR & MOTION SECURITY GUARD\BUILD-CSX\_DEPS\SQLITE3_AMALGAMATION-SUBBUILD\CMAKEFILES\AE87A60C23BD3E172EC1E5EDD81A6709\SQLITE3_AMALGAMATION-POPULATE-TEST.RULE
+setlocal
+cd "D:\Edge AI Camera Monitor & Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/sqlite3_amalgamation-populate-prefix/src/sqlite3_amalgamation-populate-stamp/Debug/sqlite3_amalgamation-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\EDGE AI CAMERA MONITOR & MOTION SECURITY GUARD\BUILD-CSX\_DEPS\SQLITE3_AMALGAMATION-SUBBUILD\CMAKEFILES\705459784B7B530DE64E0A7C459002E3\SQLITE3_AMALGAMATION-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/CMakeFiles/Debug/sqlite3_amalgamation-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/sqlite3_amalgamation-populate-prefix/src/sqlite3_amalgamation-populate-stamp/Debug/sqlite3_amalgamation-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\EDGE AI CAMERA MONITOR & MOTION SECURITY GUARD\BUILD-CSX\_DEPS\SQLITE3_AMALGAMATION-SUBBUILD\CMAKEFILES\FC59734204F10F0908293390194E876D\SQLITE3_AMALGAMATION-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\EDGE AI CAMERA MONITOR & MOTION SECURITY GUARD\BUILD-CSX\_DEPS\SQLITE3_AMALGAMATION-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild" "-BD:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild" --check-stamp-file "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

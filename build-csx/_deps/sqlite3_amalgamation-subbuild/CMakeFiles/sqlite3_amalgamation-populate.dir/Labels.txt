@@ -1,0 +1,14 @@
+# Target labels
+ sqlite3_amalgamation-populate
+# Source files and their labels
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/CMakeFiles/sqlite3_amalgamation-populate
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/CMakeFiles/fc59734204f10f0908293390194e876d/sqlite3_amalgamation-populate.rule
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/CMakeFiles/705459784b7b530de64e0a7c459002e3/sqlite3_amalgamation-populate-complete.rule
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/CMakeFiles/ae87a60c23bd3e172ec1e5edd81a6709/sqlite3_amalgamation-populate-build.rule
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/CMakeFiles/ae87a60c23bd3e172ec1e5edd81a6709/sqlite3_amalgamation-populate-configure.rule
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/CMakeFiles/ae87a60c23bd3e172ec1e5edd81a6709/sqlite3_amalgamation-populate-download.rule
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/CMakeFiles/ae87a60c23bd3e172ec1e5edd81a6709/sqlite3_amalgamation-populate-install.rule
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/CMakeFiles/ae87a60c23bd3e172ec1e5edd81a6709/sqlite3_amalgamation-populate-mkdir.rule
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/CMakeFiles/ae87a60c23bd3e172ec1e5edd81a6709/sqlite3_amalgamation-populate-patch.rule
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/CMakeFiles/ae87a60c23bd3e172ec1e5edd81a6709/sqlite3_amalgamation-populate-test.rule
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/CMakeFiles/ae87a60c23bd3e172ec1e5edd81a6709/sqlite3_amalgamation-populate-update.rule

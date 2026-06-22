@@ -1,0 +1,14 @@
+# Target labels
+ nlohmann_json-populate
+# Source files and their labels
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/nlohmann_json-subbuild/CMakeFiles/nlohmann_json-populate
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/nlohmann_json-subbuild/CMakeFiles/4725c1bcbd0c4e86742b593ff2908c57/nlohmann_json-populate.rule
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/nlohmann_json-subbuild/CMakeFiles/0ece181b490ea89818fb498e922370ae/nlohmann_json-populate-complete.rule
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/nlohmann_json-subbuild/CMakeFiles/ee3241fa6f2e5bc9c45b06f185ec1ba7/nlohmann_json-populate-build.rule
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/nlohmann_json-subbuild/CMakeFiles/ee3241fa6f2e5bc9c45b06f185ec1ba7/nlohmann_json-populate-configure.rule
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/nlohmann_json-subbuild/CMakeFiles/ee3241fa6f2e5bc9c45b06f185ec1ba7/nlohmann_json-populate-download.rule
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/nlohmann_json-subbuild/CMakeFiles/ee3241fa6f2e5bc9c45b06f185ec1ba7/nlohmann_json-populate-install.rule
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/nlohmann_json-subbuild/CMakeFiles/ee3241fa6f2e5bc9c45b06f185ec1ba7/nlohmann_json-populate-mkdir.rule
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/nlohmann_json-subbuild/CMakeFiles/ee3241fa6f2e5bc9c45b06f185ec1ba7/nlohmann_json-populate-patch.rule
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/nlohmann_json-subbuild/CMakeFiles/ee3241fa6f2e5bc9c45b06f185ec1ba7/nlohmann_json-populate-test.rule
+D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/nlohmann_json-subbuild/CMakeFiles/ee3241fa6f2e5bc9c45b06f185ec1ba7/nlohmann_json-populate-update.rule

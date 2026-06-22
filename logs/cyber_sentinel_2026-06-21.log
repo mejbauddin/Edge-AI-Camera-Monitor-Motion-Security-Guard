@@ -1,0 +1,17 @@
+[2026-06-21 17:43:21] [info] [Application] Initializing Cyber Sentinel X...
+[2026-06-21 17:43:21] [warn] [Application] Camera start failed for 'usb:0', using synthetic:0
+[2026-06-21 17:43:21] [info] [CameraEngine] Camera online: synthetic:0
+[2026-06-21 17:43:21] [info] [PipelineOrchestrator] AISOS neural pipeline online
+[2026-06-21 17:43:21] [info] [Application] Cyber Sentinel X initialized successfully
+[2026-06-21 17:44:27] [info] [Application] Initializing Cyber Sentinel X...
+[2026-06-21 17:44:27] [warn] [Application] Camera start failed for 'usb:0', using synthetic:0
+[2026-06-21 17:44:27] [info] [CameraEngine] Camera online: synthetic:0
+[2026-06-21 17:44:27] [info] [PipelineOrchestrator] AISOS neural pipeline online
+[2026-06-21 17:44:27] [info] [Application] Cyber Sentinel X initialized successfully
+[2026-06-21 17:44:39] [info] [CameraEngine] Camera offline
+[2026-06-21 17:45:50] [info] [Application] Initializing Cyber Sentinel X...
+[2026-06-21 17:45:50] [warn] [Application] Camera start failed for 'usb:0', using synthetic:0
+[2026-06-21 17:45:50] [info] [CameraEngine] Camera online: synthetic:0
+[2026-06-21 17:45:50] [info] [PipelineOrchestrator] AISOS neural pipeline online
+[2026-06-21 17:45:50] [info] [Application] Cyber Sentinel X initialized successfully
+[2026-06-21 17:45:57] [info] [CameraEngine] Camera offline

@@ -1,0 +1,150 @@
+^D:\EDGE AI CAMERA MONITOR & MOTION SECURITY GUARD\BUILD-CSX\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\8239F8254D5383DFB7BB99ABF1AC6DAD\SPDLOG-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild/spdlog-populate-prefix/tmp/spdlog-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/Debug/spdlog-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\EDGE AI CAMERA MONITOR & MOTION SECURITY GUARD\BUILD-CSX\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\8239F8254D5383DFB7BB99ABF1AC6DAD\SPDLOG-POPULATE-DOWNLOAD.RULE
+setlocal
+cd "D:\Edge AI Camera Monitor & Motion Security Guard\build-csx\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild/spdlog-populate-prefix/tmp/spdlog-populate-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/Debug/spdlog-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\EDGE AI CAMERA MONITOR & MOTION SECURITY GUARD\BUILD-CSX\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\8239F8254D5383DFB7BB99ABF1AC6DAD\SPDLOG-POPULATE-UPDATE.RULE
+setlocal
+cd "D:\Edge AI Camera Monitor & Motion Security Guard\build-csx\_deps\spdlog-src"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild/spdlog-populate-prefix/tmp/spdlog-populate-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\EDGE AI CAMERA MONITOR & MOTION SECURITY GUARD\BUILD-CSX\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\8239F8254D5383DFB7BB99ABF1AC6DAD\SPDLOG-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/Debug/spdlog-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\EDGE AI CAMERA MONITOR & MOTION SECURITY GUARD\BUILD-CSX\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\8239F8254D5383DFB7BB99ABF1AC6DAD\SPDLOG-POPULATE-CONFIGURE.RULE
+setlocal
+cd "D:\Edge AI Camera Monitor & Motion Security Guard\build-csx\_deps\spdlog-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/Debug/spdlog-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\EDGE AI CAMERA MONITOR & MOTION SECURITY GUARD\BUILD-CSX\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\8239F8254D5383DFB7BB99ABF1AC6DAD\SPDLOG-POPULATE-BUILD.RULE
+setlocal
+cd "D:\Edge AI Camera Monitor & Motion Security Guard\build-csx\_deps\spdlog-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/Debug/spdlog-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\EDGE AI CAMERA MONITOR & MOTION SECURITY GUARD\BUILD-CSX\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\8239F8254D5383DFB7BB99ABF1AC6DAD\SPDLOG-POPULATE-INSTALL.RULE
+setlocal
+cd "D:\Edge AI Camera Monitor & Motion Security Guard\build-csx\_deps\spdlog-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/Debug/spdlog-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\EDGE AI CAMERA MONITOR & MOTION SECURITY GUARD\BUILD-CSX\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\8239F8254D5383DFB7BB99ABF1AC6DAD\SPDLOG-POPULATE-TEST.RULE
+setlocal
+cd "D:\Edge AI Camera Monitor & Motion Security Guard\build-csx\_deps\spdlog-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/Debug/spdlog-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\EDGE AI CAMERA MONITOR & MOTION SECURITY GUARD\BUILD-CSX\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\12F873CCF3BAB2DABA2BCC89BEA02CC4\SPDLOG-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild/CMakeFiles/Debug/spdlog-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/Debug/spdlog-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\EDGE AI CAMERA MONITOR & MOTION SECURITY GUARD\BUILD-CSX\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\6D26FAF62EE5705A023FFDDB4816F8CA\SPDLOG-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\EDGE AI CAMERA MONITOR & MOTION SECURITY GUARD\BUILD-CSX\_DEPS\SPDLOG-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild" "-BD:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild" --check-stamp-file "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

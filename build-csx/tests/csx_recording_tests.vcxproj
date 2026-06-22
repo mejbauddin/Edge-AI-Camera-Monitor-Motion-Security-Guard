@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{08D7F6D6-5EB0-3E9F-8355-C0334137E409}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>csx_recording_tests</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">csx_recording_tests.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">csx_recording_tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">csx_recording_tests.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">csx_recording_tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">csx_recording_tests.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">csx_recording_tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">csx_recording_tests.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">csx_recording_tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\csx_recording_tests_autogen\include_Debug;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\core;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\spdlog-src\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\nlohmann_json-src\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\utils;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\database;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx/_deps/googletest-src/googletest/include" /external:I "D:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx/_deps/googletest-src/googletest" /external:I "C:/opencv/build/opencv/build/include" /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CYBER_SENTINEL_X_VERSION="1.0.0";CSX_DEV_MODE=1;SPDLOG_COMPILED_LIB;CSX_HAS_OPENCV=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CYBER_SENTINEL_X_VERSION=\"1.0.0\";CSX_DEV_MODE=1;SPDLOG_COMPILED_LIB;CSX_HAS_OPENCV=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\csx_recording_tests_autogen\include_Debug;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\core;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\spdlog-src\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\nlohmann_json-src\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\utils;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\database;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-src;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\googletest-src\googletest\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\googletest-src\googletest;C:\opencv\build\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\csx_recording_tests_autogen\include_Debug;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\core;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\spdlog-src\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\nlohmann_json-src\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\utils;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\database;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-src;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\googletest-src\googletest\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\googletest-src\googletest;C:\opencv\build\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\vcpkg\vcpkg.exe z-applocal "--target-binary=D:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx/tests/Debug/csx_recording_tests.exe" --installed-bin-dir=C:/vcpkg/installed/x64-windows/debug/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\Debug\csx_core.lib;..\lib\Debug\gtest_main.lib;..\lib\Debug\gtest.lib;..\Debug\csx_recording.lib;..\Debug\csx_camera.lib;C:\opencv\build\opencv\build\x64\vc16\lib\opencv_world490d.lib;C:\opencv\build\opencv\build\x64\vc16\lib\opencv_world490d.lib;C:\opencv\build\opencv\build\x64\vc16\lib\opencv_world490d.lib;..\Debug\csx_database.lib;..\Debug\sqlite3.lib;..\Debug\csx_utils.lib;..\Debug\csx_core.lib;..\_deps\spdlog-build\Debug\spdlogd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx/tests/Debug/csx_recording_tests.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx/tests/Debug/csx_recording_tests.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\csx_recording_tests_autogen\include_Release;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\core;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\spdlog-src\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\nlohmann_json-src\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\utils;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\database;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx/_deps/googletest-src/googletest/include" /external:I "D:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx/_deps/googletest-src/googletest" /external:I "C:/opencv/build/opencv/build/include" /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CYBER_SENTINEL_X_VERSION="1.0.0";CSX_DEV_MODE=1;SPDLOG_COMPILED_LIB;CSX_HAS_OPENCV=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CYBER_SENTINEL_X_VERSION=\"1.0.0\";CSX_DEV_MODE=1;SPDLOG_COMPILED_LIB;CSX_HAS_OPENCV=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\csx_recording_tests_autogen\include_Release;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\core;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\spdlog-src\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\nlohmann_json-src\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\utils;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\database;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-src;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\googletest-src\googletest\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\googletest-src\googletest;C:\opencv\build\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\csx_recording_tests_autogen\include_Release;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\core;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\spdlog-src\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\nlohmann_json-src\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\utils;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\database;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-src;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\googletest-src\googletest\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\googletest-src\googletest;C:\opencv\build\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\vcpkg\vcpkg.exe z-applocal "--target-binary=D:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx/tests/Release/csx_recording_tests.exe" --installed-bin-dir=C:/vcpkg/installed/x64-windows/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\Release\csx_core.lib;..\lib\Release\gtest_main.lib;..\lib\Release\gtest.lib;..\Release\csx_recording.lib;..\Release\csx_camera.lib;C:\opencv\build\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\opencv\build\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\opencv\build\opencv\build\x64\vc16\lib\opencv_world490.lib;..\Release\csx_database.lib;..\Release\sqlite3.lib;..\Release\csx_utils.lib;..\Release\csx_core.lib;..\_deps\spdlog-build\Release\spdlog.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx/tests/Release/csx_recording_tests.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx/tests/Release/csx_recording_tests.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\csx_recording_tests_autogen\include_MinSizeRel;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\core;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\spdlog-src\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\nlohmann_json-src\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\utils;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\database;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx/_deps/googletest-src/googletest/include" /external:I "D:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx/_deps/googletest-src/googletest" /external:I "C:/opencv/build/opencv/build/include" /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CYBER_SENTINEL_X_VERSION="1.0.0";CSX_DEV_MODE=1;SPDLOG_COMPILED_LIB;CSX_HAS_OPENCV=1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CYBER_SENTINEL_X_VERSION=\"1.0.0\";CSX_DEV_MODE=1;SPDLOG_COMPILED_LIB;CSX_HAS_OPENCV=1;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\csx_recording_tests_autogen\include_MinSizeRel;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\core;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\spdlog-src\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\nlohmann_json-src\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\utils;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\database;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-src;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\googletest-src\googletest\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\googletest-src\googletest;C:\opencv\build\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\csx_recording_tests_autogen\include_MinSizeRel;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\core;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\spdlog-src\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\nlohmann_json-src\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\utils;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\database;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-src;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\googletest-src\googletest\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\googletest-src\googletest;C:\opencv\build\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\vcpkg\vcpkg.exe z-applocal "--target-binary=D:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx/tests/MinSizeRel/csx_recording_tests.exe" --installed-bin-dir=C:/vcpkg/installed/x64-windows/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\MinSizeRel\csx_core.lib;..\lib\MinSizeRel\gtest_main.lib;..\lib\MinSizeRel\gtest.lib;..\MinSizeRel\csx_recording.lib;..\MinSizeRel\csx_camera.lib;C:\opencv\build\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\opencv\build\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\opencv\build\opencv\build\x64\vc16\lib\opencv_world490.lib;..\MinSizeRel\csx_database.lib;..\MinSizeRel\sqlite3.lib;..\MinSizeRel\csx_utils.lib;..\MinSizeRel\csx_core.lib;..\_deps\spdlog-build\MinSizeRel\spdlog.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx/tests/MinSizeRel/csx_recording_tests.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx/tests/MinSizeRel/csx_recording_tests.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\csx_recording_tests_autogen\include_RelWithDebInfo;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\core;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\spdlog-src\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\nlohmann_json-src\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\utils;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\database;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx/_deps/googletest-src/googletest/include" /external:I "D:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx/_deps/googletest-src/googletest" /external:I "C:/opencv/build/opencv/build/include" /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CYBER_SENTINEL_X_VERSION="1.0.0";CSX_DEV_MODE=1;SPDLOG_COMPILED_LIB;CSX_HAS_OPENCV=1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CYBER_SENTINEL_X_VERSION=\"1.0.0\";CSX_DEV_MODE=1;SPDLOG_COMPILED_LIB;CSX_HAS_OPENCV=1;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\csx_recording_tests_autogen\include_RelWithDebInfo;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\core;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\spdlog-src\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\nlohmann_json-src\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\utils;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\database;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-src;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\googletest-src\googletest\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\googletest-src\googletest;C:\opencv\build\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\csx_recording_tests_autogen\include_RelWithDebInfo;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\core;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\spdlog-src\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\nlohmann_json-src\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\recording;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\vision\camera;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\utils;D:\Edge AI Camera Monitor &amp; Motion Security Guard\src\database;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\sqlite3_amalgamation-src;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\googletest-src\googletest\include;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\googletest-src\googletest;C:\opencv\build\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\vcpkg\vcpkg.exe z-applocal "--target-binary=D:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx/tests/RelWithDebInfo/csx_recording_tests.exe" --installed-bin-dir=C:/vcpkg/installed/x64-windows/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\RelWithDebInfo\csx_core.lib;..\lib\RelWithDebInfo\gtest_main.lib;..\lib\RelWithDebInfo\gtest.lib;..\RelWithDebInfo\csx_recording.lib;..\RelWithDebInfo\csx_camera.lib;C:\opencv\build\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\opencv\build\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\opencv\build\opencv\build\x64\vc16\lib\opencv_world490.lib;..\RelWithDebInfo\csx_database.lib;..\RelWithDebInfo\sqlite3.lib;..\RelWithDebInfo\csx_utils.lib;..\RelWithDebInfo\csx_core.lib;..\_deps\spdlog-build\RelWithDebInfo\spdlog.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx/tests/RelWithDebInfo/csx_recording_tests.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx/tests/RelWithDebInfo/csx_recording_tests.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\tests\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Edge AI Camera Monitor ^&amp; Motion Security Guard/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Edge AI Camera Monitor &amp; Motion Security Guard" "-BD:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx" --check-stamp-file "D:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx/tests/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\GoogleTest.cmake;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Edge AI Camera Monitor ^&amp; Motion Security Guard/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Edge AI Camera Monitor &amp; Motion Security Guard" "-BD:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx" --check-stamp-file "D:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx/tests/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\GoogleTest.cmake;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Edge AI Camera Monitor ^&amp; Motion Security Guard/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Edge AI Camera Monitor &amp; Motion Security Guard" "-BD:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx" --check-stamp-file "D:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx/tests/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\GoogleTest.cmake;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Edge AI Camera Monitor ^&amp; Motion Security Guard/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Edge AI Camera Monitor &amp; Motion Security Guard" "-BD:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx" --check-stamp-file "D:/Edge AI Camera Monitor &amp; Motion Security Guard/build-csx/tests/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\GoogleTest.cmake;D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\csx_recording_tests_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\tests\unit\recording\rolling_buffer_test.cpp" />
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\tests\unit\recording\snapshot_capture_test.cpp" />
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\tests\unit\recording\storage_manager_test.cpp" />
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\tests\unit\recording\recorder_test.cpp" />
+    <None Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\csx_recording_tests_autogen\timestamp">
+    </None>
+    <Natvis Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\nlohmann_json-src\nlohmann_json.natvis">
+    </Natvis>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\csx_recording_tests_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\csx_recording_tests_autogen\mocs_compilation_MinSizeRel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\csx_recording_tests_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\ZERO_CHECK.vcxproj">
+      <Project>{D01A74D7-67E9-301A-8CD6-68B83D1FD70D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\csx_camera.vcxproj">
+      <Project>{5790E368-784A-3298-84C1-0B0A76AF7E0E}</Project>
+      <Name>csx_camera</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\csx_core.vcxproj">
+      <Project>{E6E791C9-B2B8-3154-97C4-B9EEE799B8F0}</Project>
+      <Name>csx_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\csx_database.vcxproj">
+      <Project>{7A435F5E-E96C-3592-B358-6D556B757E94}</Project>
+      <Name>csx_database</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\csx_recording.vcxproj">
+      <Project>{B95DB24B-6B74-3EBD-AA4E-E5276E7734B5}</Project>
+      <Name>csx_recording</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\csx_recording_tests_autogen.vcxproj">
+      <Project>{5CA579ED-BED8-34D9-BF50-972CECCD4889}</Project>
+      <Name>csx_recording_tests_autogen</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\tests\csx_recording_tests_autogen_timestamp_deps.vcxproj">
+      <Project>{D17EB193-84DC-3EFA-BD34-A71B4F0F7751}</Project>
+      <Name>csx_recording_tests_autogen_timestamp_deps</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\csx_utils.vcxproj">
+      <Project>{E0B2D051-A655-3D64-9181-9CF412D125AC}</Project>
+      <Name>csx_utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\googletest-build\googletest\gtest.vcxproj">
+      <Project>{07FF629A-B255-379B-A08E-9DD82BAFC81D}</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\googletest-build\googletest\gtest_main.vcxproj">
+      <Project>{99A23E47-08DF-359A-8DA6-CC12196F8BF5}</Project>
+      <Name>gtest_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\_deps\spdlog-build\spdlog.vcxproj">
+      <Project>{1C918F4A-FD90-3CE6-BA16-5927918FB17F}</Project>
+      <Name>spdlog</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Edge AI Camera Monitor &amp; Motion Security Guard\build-csx\sqlite3.vcxproj">
+      <Project>{90A70141-8463-339E-873D-D5EDABAC8AA7}</Project>
+      <Name>sqlite3</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

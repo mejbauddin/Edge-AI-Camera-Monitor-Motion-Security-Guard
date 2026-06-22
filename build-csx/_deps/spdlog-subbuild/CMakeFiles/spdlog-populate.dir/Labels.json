@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate"
+		},
+		{
+			"file" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild/CMakeFiles/6d26faf62ee5705a023ffddb4816f8ca/spdlog-populate.rule"
+		},
+		{
+			"file" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild/CMakeFiles/12f873ccf3bab2daba2bcc89bea02cc4/spdlog-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild/CMakeFiles/8239f8254d5383dfb7bb99abf1ac6dad/spdlog-populate-build.rule"
+		},
+		{
+			"file" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild/CMakeFiles/8239f8254d5383dfb7bb99abf1ac6dad/spdlog-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild/CMakeFiles/8239f8254d5383dfb7bb99abf1ac6dad/spdlog-populate-download.rule"
+		},
+		{
+			"file" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild/CMakeFiles/8239f8254d5383dfb7bb99abf1ac6dad/spdlog-populate-install.rule"
+		},
+		{
+			"file" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild/CMakeFiles/8239f8254d5383dfb7bb99abf1ac6dad/spdlog-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild/CMakeFiles/8239f8254d5383dfb7bb99abf1ac6dad/spdlog-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild/CMakeFiles/8239f8254d5383dfb7bb99abf1ac6dad/spdlog-populate-test.rule"
+		},
+		{
+			"file" : "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/spdlog-subbuild/CMakeFiles/8239f8254d5383dfb7bb99abf1ac6dad/spdlog-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"spdlog-populate"
+		],
+		"name" : "spdlog-populate"
+	}
+}

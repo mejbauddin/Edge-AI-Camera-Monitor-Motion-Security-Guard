@@ -1,0 +1,10 @@
+^D:\EDGE AI CAMERA MONITOR & MOTION SECURITY GUARD\BUILD-CSX\_DEPS\SQLITE3_AMALGAMATION-SUBBUILD\CMAKEFILES\FC59734204F10F0908293390194E876D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild" "-BD:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Edge AI Camera Monitor & Motion Security Guard/build-csx/_deps/sqlite3_amalgamation-subbuild/sqlite3_amalgamation-populate.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

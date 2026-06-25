@@ -1,0 +1,6 @@
+[2026-06-25 15:12:11] [info] [Application] Initializing Cyber Sentinel X...
+[2026-06-25 15:12:12] [info] [CameraEngine] Camera online: usb:0
+[2026-06-25 15:12:12] [info] [PipelineOrchestrator] AISOS neural pipeline online
+[2026-06-25 15:12:13] [info] [Application] Cyber Sentinel X initialized successfully
+[2026-06-25 15:12:27] [info] [CameraEngine] Camera offline
+[2026-06-25 15:12:27] [info] [PipelineOrchestrator] AISOS neural pipeline offline

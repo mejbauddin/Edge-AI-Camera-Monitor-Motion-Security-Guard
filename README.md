@@ -47,6 +47,16 @@
 
 ---
 
+## Screenshots Of Software UI
+
+<div align="center">
+
+![Pipeline Architecture](docs/images/Software_Interface_Images.png)
+
+</div>
+
+---
+
 ## Screenshots & Architecture
 
 <div align="center">
@@ -589,16 +599,6 @@ The window opens **maximized** by default. Press **F11** for fullscreen. The rig
 **Core modules:** `csx_core` · `csx_camera` · `csx_motion` · `csx_tracking` · `csx_recognition` · `csx_behavior` · `csx_threat` · `csx_hud` · `csx_radar` · `csx_recording` · `csx_voice` · `csx_alerts` · `csx_ui`
 
 See [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) for module-level design notes.
-
----
-
-## Screenshots Of Software UI
-
-<div align="center">
-
-![Pipeline Architecture](docs/images/Software_Interface_Images.png)
-
-</div>
 
 ---
 

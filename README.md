@@ -592,6 +592,16 @@ See [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) for module-level design notes
 
 ---
 
+## Screenshots Of Software UI
+
+<div align="center">
+
+![Pipeline Architecture](docs/images/Software_Interface_Images.png)
+
+</div>
+
+---
+
 ## New Developer Checklist
 
 ```
